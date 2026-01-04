@@ -1,6 +1,7 @@
 import { Routes, Route, Link } from 'react-router-dom'
 import Home from './pages/Home'
 import SoftmaxComparison from './pages/softmax/SoftmaxComparison'
+import SparsemaxExplanation from './pages/sparsemax/SparsemaxExplanation'
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/softmax" element={<SoftmaxComparison />} />
+          <Route path="/sparsemax" element={<SparsemaxExplanation />} />
         </Routes>
       </main>
 
