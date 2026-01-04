@@ -15,7 +15,20 @@ const categories = [
     link: '/softmax',
     color: 'from-blue-500 to-cyan-500',
   },
-  // 将来のカテゴリ用プレースホルダー
+  {
+    id: 'sparsemax',
+    title: 'Sparsemax関数',
+    description: 'Softmaxの代替として提案されたスパースな確率分布を出力する関数。一部の出力を正確に0にできます。',
+    icon: '✨',
+    topics: [
+      'Sparsemaxの基本概念',
+      'Softmaxとの違い',
+      'スパース性の利点',
+      '使い分けガイド',
+    ],
+    link: '/sparsemax',
+    color: 'from-purple-500 to-pink-500',
+  },
   {
     id: 'backpropagation',
     title: '誤差逆伝播法',
